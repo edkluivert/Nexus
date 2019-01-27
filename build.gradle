@@ -17,7 +17,7 @@ buildscript {
 
 allprojects {
     tasks.withType(JavaCompile){
-        options.compilerArgs << "-xlint:unchecked" << "-Xlint:depreciation"
+        options.compilerArgs << "-Xlint:unchecked" << "-Xlint:depreciation"
     }
     repositories {
         google()
